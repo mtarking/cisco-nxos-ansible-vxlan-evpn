@@ -1,16 +1,8 @@
 ---
 
-#- hosts: spine
-#  roles:
-#    - role: spine
-
-- hosts: n9k_spine
+- hosts: spine
   roles:
-    - role: n9k_spine
-
-- hosts: n7k_spine
-  roles:
-    - role: n7k_spine
+    - role: spine
 
 - hosts: leaf
   roles:
@@ -21,4 +13,3 @@
   #  - name: save config
   #    nxos_save_config: host={{ inventory_hostname }}
 
-#- include: switches.yml
