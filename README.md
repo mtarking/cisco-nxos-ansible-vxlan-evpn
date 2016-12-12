@@ -14,7 +14,7 @@ yum -y install git ansible openssh-clients
 ```
 
 ```
-cd /WORKDIR
+cd /WORKDIR # your working directory where you want the clone of the repo to reside
 ```
 
 ```
