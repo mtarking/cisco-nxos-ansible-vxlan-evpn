@@ -3,6 +3,8 @@ Ansible playbooks to configure MP-BGP EVPN VXLAN using IP Unnumbered with OSPF a
 
 ## Option 1:
 
+Using a CentOS/RHEL machine:
+
 ```
 yum -y install epel-release
 ```
