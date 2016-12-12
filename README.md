@@ -4,6 +4,18 @@ Ansible playbooks to configure MP-BGP EVPN VXLAN using IP Unnumbered with OSPF a
 ## Option 1:
 
 ```
+yum -y install epel-release
+```
+
+```
+yum -y install git ansible openssh-clients
+```
+
+```
+cd /WORKDIR
+```
+
+```
 git clone https://github.com/mtarking/cisco-nxos-ansible-vxlan-evpn
 ```
 
